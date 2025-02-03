@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="forum-page">
+    <div class="forum-container">
+        <h1>📢 Forum de Discussion</h1>
+        <p>Discutez des questions du quiz et partagez vos connaissances !</p>
+
+       
+        <div class="new-topic">
+            <h2>Créer un nouveau sujet</h2>
+            <form id="new-topic-form">
+                <input type="text" id="topic-title" placeholder="Titre du sujet" required>
+                <textarea id="topic-content" rows="4" placeholder="Décrivez votre sujet..." required></textarea>
+                <button type="submit">Publier</button>
+            </form>
+        </div>
+
+        
+        <div class="forum-threads">
+            <h2>Discussions récentes</h2>
+            <div class="thread">
+                <h3>📌 Quelle est la différence entre un antibiotique et un antiviral ?</h3>
+                <p class="thread-meta">Posté par Alice - 5 réponses</p>
+                <button class="view-thread">Voir la discussion</button>
+            </div>
+
+            <div class="thread">
+                <h3>💊 Effets secondaires des AINS ?</h3>
+                <p class="thread-meta">Posté par Thomas - 3 réponses</p>
+                <button class="view-thread">Voir la discussion</button>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
