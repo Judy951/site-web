@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Médical</title>
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="a propos.html">À propos</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		<li><a href="forum.html">Forum</a></li>
+		
+    </ul>
+
+</nav>
+
+
+<div id="quiz-intro" class="intro-screen">
+   
+    <h1>Bienvenue dans le Quiz sur les Médicaments!</h1>
+    <p>Testez vos connaissances en médecine de manière interactive.</p>
+    <button onclick="startQuiz()">Commencer le Quiz</button>
+</div>
+
+<div id="quiz-container" class="hidden">
+ 
+        <h1> Quiz sur les Médicaments 💊</h1>
+		
+        <p id="question"></p>
+        <div id="answers"></div>
+		<p id="explanation"></p>
+        <button id="next-btn" onclick="nextQuestion()">Question suivante</button>
+        <p id="score"></p>
+		
+    </div>
+	
+
+    <script src="script.js"></script>
+<footer>
+    <p>© 2025 - Conçu et développé par JOHNSON Judy </p>
+</footer>
+
+</body>
+</html>
